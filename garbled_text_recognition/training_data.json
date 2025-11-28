@@ -1,0 +1,218 @@
+{
+  "description": "乱码检测训练数据集 - 请添加更多样本以提高准确率",
+  "usage": "label: 0=正常文本, 1=乱码文本",
+  "samples": [
+      {
+          "text": "这是一段正常的中文文本，用于测试乱码检测功能。",
+          "label": 0
+      },
+      {
+          "text": "今天天气很好，适合出门散步。",
+          "label": 0
+      },
+      {
+          "text": "Python是一种广泛使用的高级编程语言。",
+          "label": 0
+      },
+      {
+          "text": "The quick brown fox jumps over the lazy dog.",
+          "label": 0
+      },
+      {
+          "text": "Hello world! This is a normal English sentence.",
+          "label": 0
+      },
+      {
+          "text": "Machine learning is a subset of artificial intelligence.",
+          "label": 0
+      },
+      {
+          "text": "中英文混合文本 Mixed Chinese and English text 也是正常的。",
+          "label": 0
+      },
+      {
+          "text": "用户ID: 12345，订单号: ORD-2024-001",
+          "label": 0
+      },
+      {
+          "text": "邮箱地址：test@example.com，电话：13800138000",
+          "label": 0
+      },
+      {
+          "text": "价格：￥99.00，折扣：8折",
+          "label": 0
+      },
+      {
+          "text": "锘挎湰鏂囦欢鍖呭惈涔辩爜",
+          "label": 1
+      },
+      {
+          "text": "ÎÒÊÇÂÒÂëÎÄ±¾",
+          "label": 1
+      },
+      {
+          "text": "脙聝脗聝脙聜脗聝脙聝脗聜脙聜脗聝",
+          "label": 1
+      },
+      {
+          "text": "\ufffd\ufffd\ufffd\ufffd\ufffdвв\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd",
+          "label": 1
+      },
+      {
+          "text": "ãƒ†ã‚¹ãƒˆæ–‡å\u00ad—åŒ–ã'",
+          "label": 1
+      },
+      {
+          "text": "¿¡¿¡¿¡¿¡¿¡¿¡",
+          "label": 1
+      },
+      {
+          "text": "鑴欑鑴椼伄鑴椻\ufffd撯\ufffd撯\ufffd撯\ufffd\ufffd",
+          "label": 1
+      },
+      {
+          "text": "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000",
+          "label": 1
+      },
+      {
+          "text": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b",
+          "label": 1
+      },
+      {
+          "text": "###$$$%%%^^^&&&***",
+          "label": 1
+      },
+      {
+          "text": "asdfjkl;asdfjkl;",
+          "label": 1
+      },
+      {
+          "text": "qwertyuiopasdfghjkl",
+          "label": 1
+      },
+      {
+          "text": "aaaaaaaaaaaaaaaa",
+          "label": 1
+      },
+      {
+          "text": "1234567890!@#$%^&*()",
+          "label": 0
+      },
+      {
+          "text": "【重要通知】请注意查收您的快递。",
+          "label": 0
+      },
+      {
+          "text": "2024年1月1日 星期一 晴",
+          "label": 0
+      },
+      {
+          "text": "ERROR: Connection timeout after 30 seconds.",
+          "label": 0
+      },
+      {
+          "text": "Success! Your order has been placed.",
+          "label": 0
+      },
+      {
+          "text": "Warning: Low disk space on drive C:",
+          "label": 0
+      },
+      {
+          "text": "The quick brown fox jumps over the lazy dog. This is a normal English sentence with proper grammar and spelling.",
+          "label": 0
+      },
+      {
+          "text": "随着人工智能技术的快速发展，机器学习在各个领域都取得了显著的成果。自然语言处理是其中重要的研究方向之一。",
+          "label": 0
+      },
+      {
+          "text": "Today's weather forecast shows sunny skies with a high of 25°C. It's a perfect day for outdoor activities and enjoying nature.",
+          "label": 0
+      },
+      {
+          "text": "在数字化转型的浪潮中，企业需要不断适应新技术，提升竞争力。云计算和大数据分析成为关键的技术支撑。",
+          "label": 0
+      },
+      {
+          "text": "Research indicates that regular exercise can improve both physical and mental health. Doctors recommend at least 30 minutes daily.",
+          "label": 0
+      },
+      {
+          "text": "中国传统文化源远流长，博大精深。从诗词歌赋到哲学思想，都体现了中华民族的智慧和创造力。",
+          "label": 0
+      },
+      {
+          "text": "Global warming is one of the most pressing issues facing humanity today. Reducing carbon emissions requires international cooperation.",
+          "label": 0
+      },
+      {
+          "text": "随着5G技术的普及，物联网应用将更加广泛。智能家居、智慧城市等领域都将迎来新的发展机遇。",
+          "label": 0
+      },
+      {
+          "text": "Education plays a vital role in personal development and social progress. Quality education should be accessible to all children worldwide.",
+          "label": 0
+      },
+      {
+          "text": "在市场经济条件下，企业需要不断创新才能保持竞争优势。产品研发和市场营销都是重要的环节。",
+          "label": 0
+      },
+      {
+          "text": "Xj#k LmN@p Qr$sT uVw^Yz 123% 456& 789* aBcDeF gHiJkL mMnOpQ rStUvW xYzAbC dEfGhI jKlMnO pQrStU vWxYz!",
+          "label": 1
+      },
+      {
+          "text": "随机生成的无意义字符组合：@#$%^&*()_+ 中文乱码示例：琲奤奣妋 婓婔婖媐媮滼 瑃瑖瘄瘈 皘皛皝皞 瞂瞆瞍磎 禐禑禒 簂簃簄簅 紻紼絀",
+          "label": 1
+      },
+      {
+          "text": "Fg!h@J#k$L%m^N&p*Q(r)S_t+U=v-W[x]Y{z} 0123456789 ABCDEFGHIJKLMNOP QRSTUVWXYZ abcdefghijkl mnopqrstuvwxyz",
+          "label": 1
+      },
+      {
+          "text": "混浠妏琞瓕畵瘉皊睂砡秌窫籅緺羛耠脜艊苩虭諎跶踼輰郟鉵鍂鞸飸駲髇鯘鶭黭鼄齆龎 这些字符没有实际意义",
+          "label": 1
+      },
+      {
+          "text": "!@#$%^&*()_+-=[]{}|;':\",./<>?`~ 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 混合乱码",
+          "label": 1
+      },
+      {
+          "text": "asldhlkasjdla sjdfnkas ksaljksca sdalksa xlass",
+          "label": 1
+      },
+      {
+          "text": "anrteeenrrtnateeo..n::a --c-aton caons:eras a- o.caon camseene oeoown..rovsona une,,erao. ,,eune, erao. ,,e une, erao. ,,eune, erao. ,,e eune, ,e c ,,eune, an erao. ,, or auroses. omeescosures o wc arencororaeeren reerence orssecn s a, oacc escronenera reaeso enoscoc surcansrumensnsrumens cue on anor seanssue, an morearcuaro enoscoc surca n amann mvuasvee m cescao veescsens auneso arrssue. amoun o exraneousssueasamaeurnanosec onre snueo reucee ere reucnaen recoverme,scomor, aneeerou rcaroceures",
+          "label": 1
+      },
+      {
+          "text": "n. mn nrn, mn-mmrn:nrn m mrn – nnr r v- nr r nnnm rn n – n rm m n n r nr nnr nr n - nn n- mmrnrnn mn.nr n .m mn mrnn- m, wrn - n r n r vr mn wr, r-wrnn-w mnn vrnr . m n m rn n r . m rn m, wrn nmr mn m rv mnmn vrrn v nmrr r vr mn nmr wrn nmr mn mr r vm mn mn vrn n,r r vr mn z n m vn r r m m nmrr m. n m.n mrn mrnrnrmnr rnn m, wrn n- rrmr nr, wrn mrmm nnr nn r v r m n r n nrrm nr nm ,nn wrnn.- rrmr. mnrnrnnnnnnrmr n m, wrn m nrmn m-nnnr, r vmrr-nnnrr m r vrrmmr w rn vm-nn mrn m r nnnnrr wmr,n wrmn nr.nn nr rmr nn x rm.. m rn m, wrn nnnrmrmr nr .m m rrrn mmr., wrn nnnrmrr rr . m rn nn r n m, wrn m nmr nrrnn r n rm",
+          "label": 1
+      },
+      {
+          "text": "- , , , ... .. ..\n. , , , , . , -,. - ,.\n\n, , ,.\n\n.\n\n, ,. , .\n\n,-, . . ,\n\n, - -- .\n\n- . - - - . -, - , - . . ,- , , ,- . , - , -- .\n\n. ,\n\n, , , .\n\n, , . , ,\n\n..\n\n, , . ,",
+          "label": 1
+      },
+      {
+          "text": "o. ,,esu a,caon, ca.m.srorvorsonaoa..rovsonaaen caon euus,,..rovsona en caono. ,, , an..rovsonaaen acaenono.caon,o.,e,anu,are,coere, conen o wcsncororaeeren reerencens enre.\n\nevces.arcuar,eeresreensenscscosoese su sueec maer reaesenerao meca revcesavn sac comonens, reracca maeer s reaeso meca cun an comonens, wornaeoes, ras, srus, ca eas, sensors, navaon ece, rooc arm aacmen caaes, comunnneevscoeru anasow,an-an ouus. s, an assocaeeeacs\n\ncaenesamnac or suorecac oruoccoemuerse.s, osecseanaes sa owenaeros encouner severa nconssen an ma resun uneven suraces, aecne an uce cusa are ona,eenomenon o svn caneaoevaonsrom anemennen oem cans. ac,soone rneaure cauosrnnrcaamea ceuson su crroomu un re nexn anassoumesc.ar aareaso,n wa scaw cana coemsarcome surca accurac.oreover,e-see oscaon oeseaeseneraesse ncreasne rs oerma necrossnone an sossues, wc maeaooesa-,",
+          "label": 1
+      },
+      {
+          "text": "evce o anoeranece aaceo a cun eacae cunev.cs aersecve vew oeanece aaceo a manua- anece an cuns.e an are ao vew an a se vew, resecve, oe n accorance w em.evce a snown anreo.ersecve vews o a mouar cunevce s.omen ans oe arresenscosure",
+          "label": 1
+      },
+      {
+          "text": "ance ws a emowomaenrasm o oe anre esxeanmesc moseureo o a vraon orneoceo.:--nerae sensorsesc.reesre aersecve vew o a cunevce w mue ouuunconaesn accorancne, w ae ecmaeo vmseunaeeac screen oneevce, an . s ao vew o a cuns oeveresenscosure rovn sensor reansn ceavn ocaersor n o sran. s acocowrsancee c wun emevocemens oeresenscosure eeco o . an ara sown exenno asa en. o ssa aco ra vsewn a o anoer cunevce w er oc sensors . sowse cuccnoraenvcece w emomens\n\ncaraon curve o . an ara sown a w emomens o.s aowaram o aer ocseeacoon accorance neraen-aneee.er",
+          "label": 1
+      },
+      {
+          "text": "nas acuea saomrses versseceve vew oe cunevce sownn s.va aonncomu aren s ses veemwse on oe ceuranveev cocnneceereo suurrne oeraonor cunonen a e sownn. sco ccorance w emomens oeresen s. an s. an are exame sesoowne sesecen e cunevce wse.n usn-e a croem omuenr ecxaamone c saennsesa es caanseemeemweenene navaoncomuaona ssem,e sran s e r sea ensors, anenamcarvennear",
+          "label": 1
+      },
+      {
+          "text": "a sac sea an sn ve vews o ar asseme w s. sea ann accora sncoew w aro enm voewm aenns a o seeresenscosure oer asseme we sac vew, resecve, s. sea an sn seaneoson sownn maera wee se.orson as sreo vecewne a secnsnvee sorssue cunone or oer . an areersecve vews o one oer se a sac sea an sn seaavn a ar asseme w oeresenscosur ara en can accorance w emomens er se. - areersecve ve",
+          "label": 1
+      }
+  ]
+}

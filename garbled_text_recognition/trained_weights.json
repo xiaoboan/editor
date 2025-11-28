@@ -1,0 +1,11 @@
+{
+  "weights": {
+    "ICR": 0.234,
+    "GSR": 0.201,
+    "LRS": 0.351,
+    "PPL": 0.214
+  },
+  "suggested_overall_min": 0.7,
+  "accuracy": 0.727,
+  "cv_accuracy": 0.778
+}
